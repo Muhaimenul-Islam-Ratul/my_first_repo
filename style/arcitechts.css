@@ -1,0 +1,61 @@
+/* the font family name work sance */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+/* sheard style all over the page */
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.btn-primary{
+    
+}
+
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+nav>ul {
+    display: flex;
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+/* Banner style  */
+.banner-content {
+    max-width: 800px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.banner-title {
+    font-size: 64px;
+    font-weight: 700;
+    color: #131313;
+}
+
+.banner-dis {
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
